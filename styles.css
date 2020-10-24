@@ -1,0 +1,231 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: verdana;
+  	vertical-align: middle;
+}
+
+.header {
+    width: 100%;
+    background-color: white;
+}
+.menu {
+    text-align: right;
+    margin-right: 5%;
+    
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #2F4EA4;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 30px 10px;
+    color: #2F4EA4;
+}
+
+.logo{
+	color: #2F4EA4;
+	float: left;
+	padding: 1.1%;
+	margin-left: 10%;
+	font-size: 26px;
+}
+
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+body{
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #2F4EA4;
+	text-align: center;
+
+}
+h3{
+	margin-top: 5%;
+}
+h4{
+	margin-bottom: 10%;
+}
+p{
+	margin: 3%;
+	font-size: 12px;
+}
+
+a{
+	text-decoration:none;
+	color: white;
+}
+
+.corpo{
+	width: 75%;
+	height: 100%;
+	margin-top: 2%;
+	color: white;
+}
+
+.descricao{
+	margin-top: 2%;
+}
+
+.opcao-list{
+	width: 100%;
+	height: 100%;
+	margin-top: 5%;
+}
+
+.opcao1{
+	width: 30%;
+	height: 100%;
+	float: left;
+	background-color: #223B7D;
+	border-radius: 10px;
+}
+
+.opcao2{
+	width: 30%;
+	height: 100%;
+	border-radius: 10px;
+	background-color: #223B7D;
+	float: left;
+	margin-left: 5%
+}
+
+.opcao3{
+	width: 30%;
+	height: 100%;
+	float: right;
+	background-color: #223B7D;
+	border-radius: 10px;
+}
+
+.numeros{
+	margin-top: 30%;
+}
+
+.clients{
+
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.projects{
+
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.hours{
+
+	width: 25%;
+	height: 100%;
+	float: right;
+}
+
+
+.hard{
+
+	width: 25%;
+	height: 100%;
+	float: right;
+}
+
+
+@media(max-width: 800px){
+
+	.menu ul li{
+		width: 100%;
+		text-align: center;
+	}
+
+	.logo{
+
+		width: 100%;
+		text-align: center;
+		padding: 0;
+		margin-left: 0;
+		margin-top: 20px;
+	}
+
+	.opcao1{
+		width: 100%;
+		float: none;
+	}
+
+	.opcao2{
+		width: 100%;
+		float: none;
+		margin-left: 0;
+	}
+
+	.opcao3{
+		width: 100%;
+		float: none;
+	}
+
+	.numeros{
+		align-items: center;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 15%;
+	}
+
+	.clients{
+
+		width: 100%;
+		height: auto;
+		float: none;
+	}
+
+	.projects{
+
+		width: 100%;
+		height: auto;
+		float: none;
+	}
+
+	.hours{
+
+		width: 100%;
+		height: auto;
+		float: none;
+
+	}
+}
